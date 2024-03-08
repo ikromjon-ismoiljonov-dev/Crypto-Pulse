@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
+* {
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+}
+body a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  width: 1200px;
+  height: 100px;
+}
+.navbar .a1 {
+  color: black;
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: 700;
+  color: #FFF;
+}
+.navbar div a {
+  margin-top: 7px;
+}
+
+@media screen and (max-width: 1280px) {
+  .navbar {
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+ul li a {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 991px) {
+  ul li a {
+    font-size: 16px;
+  }
+  .a111 {
+    margin-left: -10px;
+  }
+}
+.a111 {
+  margin-left: -20px;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar ul {
+    display: none;
+  }
+  .noneul {
+    display: none !important;
+  }
+  .a111 {
+    margin-left: 15px !important;
+  }
+}
+@media screen and (min-width: 767px) {
+  .btnnone1 {
+    display: none;
+  }
+}
+.nav2 {
+  display: none;
+}
+
+.noneul a:hover {
+  background-image: linear-gradient(25deg, #2600fc, #ff00ea);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+  transition: 0.5s;
+}/*# sourceMappingURL=nav.css.map */

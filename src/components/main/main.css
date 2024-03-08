@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+.main1{
+    background-color: #0f051d;
+    width: 100%;
+}
+
+.sc1{
+    width: 1200px;
+    margin: auto;
+}
+.sc4{
+    width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: linear-gradient(25deg,#2600fc,#ff00ea);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.sc4 div p{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+@media screen and (max-width: 1280px) {
+    .sc1{
+        width: 100%;
+        /* padding-left: 50px;
+        padding-right: 50px; */
+    }
+    .sc4{
+        width: 100%;
+        /* padding-left: 50px;
+        padding-right: 50px; */
+    }
+}
+.pfs1{
+    font-size: 15pt !important;
+}
+@media screen and (max-width: 922px) {
+    .sc1{
+        width: 800px;
+    }
+    .sc4{
+        width: 800px;
+    }
+}
+.choose{
+    margin-top: 200px;
+    width: 1300px;
+}
+.choose h1{
+    font-size: 70px;
+    font-weight: 600;
+    color: white;
+}
+.choose h1 span{
+    background: linear-gradient(25deg, #2600fc, #ff00ea);
+    background-clip: text;
+    color: transparent;
+}
+@media screen and (max-width: 1380px) {
+    .choose{
+        width: 100%;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+.i11{
+        align-items: center;
+        background: linear-gradient(25deg,#2600fc,#ff00ea);
+        border-radius: 15px;
+        display: flex;
+        height: 60px;
+        padding: 1.5rem;
+        width: 60px;
+}
+
+.div-col1{
+    background-color: hsla(0,0%,100%,.05);
+    border-radius: 20px;
+    border: 1px solid hsla(0,0%,51%,.25);
+    margin-left: auto;
+    margin-right: auto;
+}
+.p4{
+    color: white;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: -10px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.p5{
+    font-size: 12pt;
+    font-family: 'Space Grotesk', sans-serif;
+    margin-left: 20px;
+    font-weight: 300;
+}
+.phandler{
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+.div-image1{
+    width: 20%;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+@media screen and (max-width: 1336px) {
+    .wallet-section{
+        width: 400px;
+    }
+} 
+@media screen and (max-width: 1125px) {
+    .wallet-section{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .choose{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .div-image1{
+        width: 100%;
+        display: flex;
+    }
+    .div-image1 img{
+        width: 30%;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 700px) {
+    .choose{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.join{
+    width: 100%;
+}
+.div-join{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 700px;
+}
+@media screen and (max-width: 930px) {
+    .div-join{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 810px) {
+    .div-join img{
+        display: none;
+    }
+}
+@media screen and (max-width: 628px) {
+    .join1, .join2{
+        font-size: 70px !important;
+    }
+}
+.join1{
+    font-size: 100px;
+    font-weight: 700;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.join2{
+    font-size: 100px;
+    font-weight: 700;
+    background: linear-gradient(25deg, #2600fc, #ff00ea);
+    background-clip: text;
+    color: transparent;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.divt1 p{
+    font-size: 18pt;
+    width: 85%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.btn-join{
+    border: none;
+    border-radius: 40px;
+    background: linear-gradient(25deg, #2600fc, #ff00ea);
+    font-size: 20pt;
+}
+.footer{
+    background: url('../../images/footer-background.png');
+    height: 350px;
+    background-position-x: 50%;
+    background-position-y: center;
+    background-size: cover;
+}
+
+.footerp{
+    font-size: 15pt;
+}
+.footerp:hover{
+    background: linear-gradient(25deg, #2600fc, #ff00ea);
+    color: transparent;
+    background-clip: text;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.div-footer12{
+    width: 240px;
+}
+.navbar3{
+    width: 1200px;
+    background-color: black;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1000;
+    margin-top: -100px !important;
+    box-shadow: 1px 10px 24px 2px rgba(0,0,0,0.79);
+    -webkit-box-shadow: 1px 10px 24px 2px rgba(0,0,0,0.79);
+    -moz-box-shadow: 1px 10px 24px 2px rgba(0,0,0,0.79);
+}
