@@ -42,6 +42,7 @@ const Nav2 = () => {
                         to="headerSection"
                         spy={true}
                         smooth={0}
+                        offset={-120}
                         duration={500}
                     >
                          <li><a href="#Home">Home</a></li>   
@@ -51,6 +52,7 @@ const Nav2 = () => {
                         to="main1"
                         spy={true}
                         smooth={0}
+                        offset={-120}
                         duration={500}
                     >
                          <li><a href="#Home">Market</a></li>   
@@ -59,6 +61,7 @@ const Nav2 = () => {
                         activeClass='active'
                         to="choose"
                         spy={true}
+                        offset={-120}
                         smooth={0}
                         duration={500}
                     >
@@ -68,6 +71,7 @@ const Nav2 = () => {
                         activeClass='active'
                         to="join"
                         spy={true}
+                        offset={-120}
                         smooth={0}
                         duration={500}
                     >

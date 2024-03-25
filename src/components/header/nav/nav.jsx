@@ -13,6 +13,7 @@ const Nav = () => {
                             activeClass='active'
                             to="headerSection"
                             spy={true}
+                            offset={-70}
                             smooth={0}
                             duration={500}
                         >
@@ -22,6 +23,7 @@ const Nav = () => {
                             activeClass='active'
                             to="main1"
                             spy={true}
+                            offset={-120}
                             smooth={0}
                             duration={500}
                         >
@@ -32,6 +34,7 @@ const Nav = () => {
                             to="choose"
                             spy={true}
                             smooth={0}
+                            offset={-120}
                             duration={500}
                         >
                             <li><a href="#Home">Choose Us</a></li>   
@@ -39,6 +42,7 @@ const Nav = () => {
                         <Link
                             activeClass='active'
                             to="join"
+                            offset={-120}
                             spy={true}
                             smooth={0}
                             duration={500}
